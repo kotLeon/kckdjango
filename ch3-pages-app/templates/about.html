@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static from staticfiles %}
+
+{% block content %}
+<html>
+<head><title>TABELA</title>
+<link rel="stylesheet" href="{% static 'ch3-pages-app/style.css' %}"/>
+</head>
+<body>
+<h1>Tabela!</h1>
+<p>
+<table>
+  <tr>
+    <th>Lorem </th>
+    <th>ipsum</th>
+    <th>phasellus</th>
+    <th>luctus</th>
+    <th>enim</th>
+    <th>id</th>
+    <th>ultricies</th>
+    <th>ornare</th>
+    <th>nibh</th>
+  </tr>
+  <tr>
+    <td>tortor</td>
+    <td>luctus</td>
+    <td>nisi</td>
+    <td>ac</td>
+    <td>blandit</td>
+    <td>enim</td>
+    <td>odio</td>
+    <td>eget</td>
+    <td>est</td>
+  </tr>
+  <tr>
+    <td>vestibulum</td>
+    <td>sed</td>
+    <td>sollicitudin</td>
+    <td>massa</td>
+    <td>suspendisse</td>
+    <td>dapibus</td>
+    <td>nunc</td>
+    <td>vitae</td>
+    <td>facilisis</td>
+  </tr>
+  <tr>
+    <td>emperdiet</td>
+    <td>nam</td>
+    <td>consequat</td>
+    <td>varius</td>
+    <td>pretium</td>
+    <td>sed</td>
+    <td>sed</td>
+    <td>leo</td>
+    <td>sagittis</td>
+  </tr>
+</table>
+</p>
+</body>
+</html>
+{% endblock content %}
